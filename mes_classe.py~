@@ -1,0 +1,57 @@
+class Jardinier:
+
+    def __init__(self, nom, prenom, location):
+
+        self.nom = nom
+        self.prenom = prenom
+        self.location = location
+        self.points = 0
+
+    def plante_arbre(Jardin, Arbre, location):
+
+        points =+ 10
+        #fonction qui ajoute une arbre au jardin
+        Jardin.ajout_arbre(Arbre, location)
+
+
+class Jardin:
+
+    def __init__(self, proprietaire, location, taille, arbres, buissons, herbes):
+
+        self.proprietaire = proprietaire
+        self.location = location
+        self.taille = taille
+        self.arbres = arbres #liste d'objet Arbre
+        self.buissons = buissons #liste d'objet buisson
+        self.herbes = herbes #liste d'objet herbes
+
+    def ajout_arbre, Arbre, location):
+
+        arbres.append(Arbre)
+
+
+
+
+
+class Proprietaire:
+
+    def __init__(self, nom, prenom,):
+
+        self.nom = nom
+        self.prenom = prenom
+        self.points = 0
+
+class Arbre:
+
+    def __init__(self, nom_scientifique, nom_commun, taille):
+
+        self.nom_scientifique = nom_scientifique
+        self.nom_commun = nom_commun
+        self.taille = taille
+
+
+class Crataegus_monogyna(Arbre):
+
+    def __init__(self, taille):
+
+        Arbre.__init__(self, 'Crataegus_monogyna', [aubepine_a_un_style,], taille)
